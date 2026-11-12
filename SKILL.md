@@ -76,7 +76,7 @@ metadata:
     - "盯一下这个竞品账号最近发了什么 → node scripts/tiktok/post-cli.js --url \"https://www.tiktok.com/@competitor\" --limit 10"
 ---
 
-# 🎵 TikTok评论数据 · 功能列表 (TikTok Comment Data)
+# 🎵 TikTok评论数据｜关键词搜索 · 评论内容 · 评论回复 · 互动数据 (TikTok Comment Data)
 
 给一个关键词或一条链接，拿回 TikTok 评论区数据整理所需的视频评论内容、评论回复、评论点赞与时间、公开作品和博主数据。不登录，不发布。结果是一份多语言 JSON。
 
