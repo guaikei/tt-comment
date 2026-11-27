@@ -6,6 +6,11 @@ name: tt-comment
 description: "TikTok评论数据只读技能：关键词搜视频、博主作品、视频评论，输出 JSON，不登录不发布。触发词：TikTok、tiktok、抖音国际版、TikTok搜索、TikTok评论、TikTok博主。用户要查 TikTok 视频、评论、爆款选题、竞品监控、KOL 筛选或评论舆情时使用；抖音、小红书、快手、B站、微博、公众号不要用本技能。"
 license: MIT
 version: 1.1.3
+display_name: "TikTok评论数据｜关键词搜索·评论内容·评论回复"
+display_name_en: "TikTok Comment"
+description_zh: "TikTok评论公开数据（只读）：关键词搜视频（相关度或最多点赞排序、时间窗筛选）、按主页链接或用户名拉取博主公开作品、按视频链接或作品ID拉取评论内容与评论回复，含评论点赞与时间、互动数据，输出可直接分析的多语言结构化 JSON。适用于评论区舆情正负向判断、高赞观点与用户诉求提取、评论聚类、竞品内容策略与红人筛选。只读设计：不登录、不发布、不点赞、不评论。按量单次最多 10000 条；包月搜索与作品最多 30、评论最多 40，超限返回 PLAN_LIMIT（退出码 1），需降低 limit 或升级按量套餐。"
+description_en: "Read-only TikTok comment data source: keyword video search (relevance or most-liked sorting with time-window filters), creator post lists by profile link or username (latest or hottest sorting), and video comments with replies, comment likes and timestamps - all returned as structured JSON an AI can turn into a comment report. Covers comment sentiment, high-liked opinions, user pain points, comment clustering, competitor content strategy and KOL screening. Read-only by design: no login, no publishing, no likes, no commenting. Pay-per-use up to 10,000 records per call; monthly plans allow up to 30 searches, 30 post queries and 40 comment queries - exceeding them returns PLAN_LIMIT (exit code 1), so lower the limit or upgrade only with the user's consent."
+author: "新郑市怪奇信息技术工作室"
 metadata:
   openclaw:
     emoji: "🎵"
